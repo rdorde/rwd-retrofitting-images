@@ -3,6 +3,7 @@ body {
   color: #fff;
   width: 100%;
   margin: 0 auto;
+  font-family: sans-serif;
 }
 
 div.half {
@@ -15,11 +16,19 @@ div.half {
   width: 90%;
   margin: 1em 5%;
   text-align: center;
-  border: 5px solid red;
+  border: 5px solid #9E2A13;
 }
-h1 {
+h1, h2 {
   text-align: left;
   padding-left: 1em;
+}
+
+.page-heading {
+  color: #1BC0E1;
+}
+
+.support {
+  padding-left: 3.6em;
 }
 
 
@@ -76,5 +85,5 @@ h1 {
 .test-5,
 .test-6,
 .test-7 {
-  border-color: green;
+  border-color: #13879E;
 }
